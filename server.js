@@ -35,6 +35,8 @@ insertOne.cloudant = function(doc, response) {
   });
 }
 
+
+
 getAll.cloudant = function(response) {
   var names = [];  
   mydb.list({ include_docs: true }, function(err, body) {
