@@ -10,6 +10,7 @@ deploy:
   manifest: manifest.yml
   app_name: My app name
   region: ng
-  api: https://cloud.ibm.com
+ # api: https://cloud.ibm.com
+  api: https://api.ng.bluemix.net 
   password:
     secure: SlTX3EdLt3J9bgusd+Df+jpm+tOkeGctkq8uhKo/N6lh6z99B3UpX/25tvPKT0kc5p82CcG0SJzCqkQDrkSIGKx3HOxxezPjgAobCDMWpM2JfVw/jFNW/gB3qKFp4Z2z+9hjkJP0FJd/rO8zjIiIXHXG2IQ7QnT0F/zIscDHsrPsESoV045quMqnGC3jUUw6tRb0HdDBBW9n9Q/BVL/N0vty+G48g5QGeDInBu+Yc67iQOdcJf4JNLcRAZ1SMrcqeL1p45gGFX0XrOB4If3Eg1+l7FL5KAvnYK7uXZyj/5rtYq1fF9FMC6xxZGuGls1sPSCyv5kh2SoYtZX3kw1xOQo7jDAfz5q0l7bJQWct8VicP2BE2Xzg9W/LW3h1IbfPfZA5QHfwJ/QjFPqCl0VXcn8vxKxZ/3dxjWK84yMhnvDAncHHjS+6kyyYRS+7C8pJp4Z3y0e57NxJlFwc242R/DQh+J/lpO4HPXL7ysBqsfUHnOA8fCxWSHq/DixlulmjjkgVpYbLSMsYTXPn/TOPjuKO6xRwFHuF8WRrKhg2B8jaFmZfF+mq0ykOfom58p0oq2jsBsOMT7NpXFbXptQnCUYLcOesOXYsrzzuFUIYIB6+zmIcPe+BmgHRN1dnhTnoLsy2dcAFpIjWYinuLARNsTP0YNAgVhOIbWt2UXCFyEU=
