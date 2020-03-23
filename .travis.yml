@@ -1,4 +1,15 @@
 language: node_js
 node_js:
-    - lts/*
-    - node
+- lts/*
+deploy:
+  edge: true
+  provider: bluemixcloudfoundry
+  username: michelca@de.ibm.com
+  password: 
+    secure: bkjqUvEoI3kh1z/H4M2HLppyk7iDdtdebJWQiJ3wQpoNT7Z6NoY8UCDTfphkn9uzvYQrW6D3QP9XHnEnTYJiLiH4NFtRJ0YuOmzyVN2Ujdmjlcd4o0Oaak7yRPaR6/i9/b8RHXj2N/MRAZOCJqItK97gjKUdE5Zigw67RidYqH8Dk4QHB6xfJQ8MQHvX6WNcJlw9tfPvrZk/PxBH7c7ZTVnpIb63tFxAh/r/jKq9So5Oxid01OC6eYLnrg7G+b+PiyXlI/9eb3Y8fOc/YOzi6+wCferq8bmCbPDLxi1ooY52tXVM4VT+viwU4+JbIh8gTxoJyBXGefIpX0+wB/uBzBVN43hfWVywn/W6fqV2V0DKPLK97gToapppnMs2gXhgXoTv/cwHa1D9hP0rJDuTugqR/PfKqw9dDJVCfF87t9GXcAO57mlK9oRqKZFF4Jrx3YL1V3xzgX2tETmDOCYdVCVVqlACax8ZEC2xAznKFz/1DdDpVK02qVmWOnbsatPXiATs8Q4gke5Be32YCT5faaF9xFrr4e6VwkS236b7CG/3rYBmgSfAo29jfDLKpgOeMEElK2HlIemIJwzs0azx/DYNEu6z8VWxuOQQS1PRLhrZBP7/rMQVltqze26QgrjDWEjMTSNlcJ3/wwshcQaXcrLL5n30LawGpdOh1d0E2qc=
+  organization: EMEACLOUDCOMMERCESUPPORT
+  space: dev
+  manifest: manifest.yml
+  app_name: My app name
+  region: us-south
+  api: https://cloud.ibm.com
