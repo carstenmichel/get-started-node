@@ -6,6 +6,7 @@ deploy:
   provider: bluemixcloudfoundry
   username: michelca@de.ibm.com
   organization: EMEACLOUDCOMMERCESUPPORT
+  org: EMEACLOUDCOMMERCESUPPORT
   space: dev
   manifest: manifest.yml
   app_name: My app name
